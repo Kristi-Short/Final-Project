@@ -8,8 +8,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'WordSearch',
-      component: WordSearch
+      name: 'Basic-Webapp',
+      component: Basic-Webapp
     }
   ]
 })
