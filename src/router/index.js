@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import WordSearch from '@/components/WordSearch'
+import OpenWeather from '@/samples/maps/OpenWeatherMapLayer'
 
 Vue.use(Router)
 
@@ -8,8 +8,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Basic-Webapp',
-      component: Basic-Webapp
+      name: 'Weather-Layer',
+      component: Weather-Layer
     }
   ]
 })
